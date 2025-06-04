@@ -3,6 +3,7 @@ import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import { useNavigate, Link } from "react-router-dom";
 import "../assets/css/login.css";
 import "../assets/css/minimal.css";
+import loginImg from "../assets/img/Login.png";
 
 export default function Login() {
   const [email, setEmail] = useState("");
@@ -89,7 +90,7 @@ export default function Login() {
         </div>
 
         <img
-          src="/img/Login.png"
+          src={loginImg}
           alt="Login"
           width="300"
           height="300"

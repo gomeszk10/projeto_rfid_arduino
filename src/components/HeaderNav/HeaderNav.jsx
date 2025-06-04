@@ -1,5 +1,5 @@
 import { Link, useNavigate } from "react-router-dom";
-import logo from "../../img/logo.png";
+import logo from "../../assets/img/logo.png";
 
 export default function HeaderNav() {
   const navigate = useNavigate();
